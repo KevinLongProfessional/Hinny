@@ -1,0 +1,105 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/style/playerInfo.uss?fileID=7433441132597879392&amp;guid=438f24608eaeb604e8cc5c22638c4c51&amp;type=3#playerInfo" />
+    <ui:Label display-tooltip-when-elided="true" name="PhaseLabel" class="phaseLabel" style="height: -5px; width: 82px; top: 8px; left: 1516px;" />
+    <ui:VisualElement name="Player1UI" class="playerUI">
+        <ui:GroupBox name="LeftColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="NameContainer">
+                <ui:Label text="Name" display-tooltip-when-elided="true" name="NameLabel" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="MoneyContainer" style="flex-direction: row;">
+                <ui:Label text="Money" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="RightColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="OreContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Ore" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="EnergyContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Energy" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="FoodContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Food" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+    <ui:VisualElement name="Player2UI" class="playerUI">
+        <ui:GroupBox name="LeftColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="NameContainer">
+                <ui:Label text="Name" display-tooltip-when-elided="true" name="NameLabel" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="MoneyContainer" style="flex-direction: row;">
+                <ui:Label text="Money" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="RightColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="OreContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Ore" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="EnergyContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Energy" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="FoodContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Food" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+    <ui:VisualElement name="Player3UI" class="playerUI">
+        <ui:GroupBox name="LeftColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="NameContainer">
+                <ui:Label text="Name" display-tooltip-when-elided="true" name="NameLabel" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="MoneyContainer" style="flex-direction: row;">
+                <ui:Label text="Money" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="RightColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="OreContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Ore" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="EnergyContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Energy" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="FoodContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Food" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+    <ui:VisualElement name="Player4UI" class="playerUI">
+        <ui:GroupBox name="LeftColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="NameContainer">
+                <ui:Label text="Name" display-tooltip-when-elided="true" name="NameLabel" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="MoneyContainer" style="flex-direction: row;">
+                <ui:Label text="Money" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:GroupBox name="RightColumn" style="width: 50%; max-width: 50%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:GroupBox name="OreContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Ore" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="EnergyContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Energy" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="FoodContainer" class="groupBox" style="flex-direction: row;">
+                <ui:Label text="Food" display-tooltip-when-elided="true" name="Label" class="label" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;" />
+                <ui:Label text="0" display-tooltip-when-elided="true" name="Value" class="value" style="align-items: stretch; flex-wrap: nowrap; flex-direction: column; -unity-text-align: upper-right;" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+    <ui:VisualElement name="ItemRow" style="position: absolute; height: 824px; width: 432px; top: 24px; left: 1394px;" />
+</ui:UXML>

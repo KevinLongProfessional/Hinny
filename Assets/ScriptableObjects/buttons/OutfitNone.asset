@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7a5a2149fbd8b142b49909c530f42e7, type: 3}
+  m_Name: OutfitNone
+  m_EditorClassIdentifier: 
+  displayName: Remove Outfit
+  onButtonClick: {fileID: 11400000, guid: 3be9822d8272283448722c7fa4c1d67f, type: 2}
+  showOnNewPlot: 0
+  showOnOwnedPlot: 1
